@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 50px;
+
+}
+
+.categories{
+    display: grid;
+    margin-top: 50px;
+    gap: 5px;
+    padding: 15px;
+    width: 80%;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.categorie{
+    background-color: blue;
+    width: 90%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.sports{
+    background-image: url('https://images.unsplash.com/photo-1671016233853-5db7def7ff76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+}
+
+.sports h3{
+    position: absolute;
+    right: 5%;
+    font-size: 35px;
+    bottom: 10%;
+    background-color: transparent;
+}
+
+.sports:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 6px 4px 6px black;
+}
+
+
+.entertaiment{
+    background-image: url('https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+}
+
+.entertaiment h3{
+    position: absolute;
+    right: 5%;
+    font-size: 35px;
+    bottom: 10%;
+    background-color: transparent;
+}
+
+.entertaiment:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 6px 4px 6px black;
+}
+
+.history{
+    background-image: url('https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80');
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+}
+
+.history h3{
+    position: absolute;
+    right: 5%;
+    font-size: 35px;
+    bottom: 10%;
+    background-color: transparent;
+}
+
+.history:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 6px 4px 6px black;
+}
+
+.games{
+    background-image: url('https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+}
+
+.games h3{
+    position: absolute;
+    right: 5%;
+    font-size: 35px;
+    bottom: 10%;
+    background-color: transparent;
+}
+
+.games:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 6px 4px 6px black;
+}
+
+
+.science{
+    background-image: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+}
+
+.science h3{
+    position: absolute;
+    right: 5%;
+    font-size: 35px;
+    bottom: 10%;
+    background-color: transparent;
+}
+
+.science:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 6px 4px 6px black;
+}
+
+
+

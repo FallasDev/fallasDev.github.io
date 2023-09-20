@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-image: url('./fondo.jpg');
+    background-position:  center;
+    background-size: cover;
+}
+
+.container{
+    width: 41%;
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/922/340/desktop-wallpaper-green-chalkboard-green-board.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 247.6px;
+}
+.astil{
+    position: absolute;
+    background-color: #fff;
+    clip-path: polygon(0 100%, 0 59%, 0 0, 30% 0, 77% 0, 77% 28%, 70% 28%, 70% 9%, 11% 9%, 10% 100%);
+    bottom: 0;
+    left: 40%;
+    border-right: 0;
+    border-bottom: 0;
+    width: 120px;
+    height: 160px;
+}
+
+.cabeza{
+    background-color: white;
+    width: 30px;
+    height: 31px;
+    position: absolute;
+    border-radius: 50%;
+    top: 130px;
+    left: 53%;
+}
+
+.tronco{
+    background-color: white;
+    width: 10px;
+    position: absolute;
+    height: 70px;
+    bottom: 30px;
+    left: 54.8%;
+}
+
+.brazo-izquierdo{
+    background-color: white;
+    position: absolute;
+    width: 7px;
+    height: 40px;
+    bottom: 49.4px;
+    left: 53%;
+    transform: rotate(45deg);
+
+}
+.brazo-derecho{
+    background-color: white;
+    position: absolute;
+    width: 7px;
+    height: 40px;
+    bottom: 48px;
+    left: 57.9%;
+    transform: rotate(-45deg);
+}
+
+.pierna-derecha{
+    background-color: white;
+    position: absolute;
+    width: 7px;
+    height: 40px;
+    bottom: 2px;
+    left: 53%;
+    transform: rotate(45deg);
+}
+
+.pierna-izquierda{
+    background-color: white;
+    position: absolute;
+    width: 7px;
+    height: 40px;
+    bottom: 2px;
+    left: 55%;
+    transform: rotate(-45deg);
+}
+
+.palabra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.botones{
+    display: grid;
+    margin-top: 60px;
+    width: 700px;
+    height: 200px;
+    grid-template-columns: repeat(10,1fr);
+    gap: 2px;
+}
+
+.boton {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 15px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 3px;
+   }
+   
+.boton:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+.ganaste{
+    background-color: #4ce3f7;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    position: absolute;
+}
+.ganaste-h2{
+    font-size: 60px;
+}
+.play-again{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 15px;
+    background-size: 100% auto;
+    font-family: inherit;
+    padding: 3px;
+}
+.exit{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 15px;
+    background-size: 100% auto;
+    font-family: inherit;
+    padding: 3px;
+}
+.perder{
+    background-color: red;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    position: absolute;
+}
+
+.perder-h2{
+    font-size: 60px;
+}
